@@ -17,8 +17,8 @@ setColor(color){
 //TRIANGLE
 
 //////////////
-class triangle extends shapeColor{
-    render(){
+class triangle extends shapeColor {
+    render() {
         return `polygon points="50 15, 100 100, 0 100" fill="${this.color}" />`;
     }
 }
@@ -27,8 +27,8 @@ class triangle extends shapeColor{
 //CIRCLE
 
 ////////////////
-class circle extends shapeColor{
-    render(){
+class circle extends shapeColor {
+    render() {
         return `<circle cx="25" cy="75" r="40" fill="${this.color}" />`;
     }
 }
